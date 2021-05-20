@@ -1,0 +1,30 @@
+{
+    "name": "video-chat-app",
+    "version": "1.0.0",
+    "description": "real-time chat application with node, peerJs, WebRTC and socket.io",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "test": "npm run test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tafowocedric/video-chat-app.git"
+    },
+    "author": "tafowo cedric",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tafowocedric/video-chat-app/issues"
+    },
+    "homepage": "https://github.com/tafowocedric/video-chat-app#readme",
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "peer": "^0.6.1",
+        "socket.io": "^4.1.2",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
